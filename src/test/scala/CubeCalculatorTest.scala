@@ -5,8 +5,8 @@ import org.scalatest.funsuite.AnyFunSuite
            assert(CubeCalculator.cube(3) === 27)
        }
 
-       test("CubeCalculator.cube 4 should be 63") {
-           assert(CubeCalculator.cube(4) === 63)
+       test("CubeCalculator.cube 4 should be 64") {
+           assert(CubeCalculator.cube(4) === 64)
        }
 
        test("CubeCalculator.cube 0 should be 0") {
