@@ -12,4 +12,9 @@ import org.scalatest.funsuite.AnyFunSuite
        test("CubeCalculator.cube 0 should be 0") {
            assert(CubeCalculator.cube(0) === 0)
        }
+
+      test("CubeCalculator.helloworld should be hello world") {
+           assert(CubeCalculator.helloworld() === "hello world")
+       }
+
    }
